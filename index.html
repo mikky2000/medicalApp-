@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>MediCure</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="https://content.presentermedia.com/content/clipart/00001000/1783/blue_medical_symbol_pc_800_wht.jpg " id="titleBar">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <main>
+
+      <div class="icons">
+         <!--<img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/menu/v13/24px.svg" alt="menu" id="menu" >-->
+        <img src="https://th.bing.com/th/id/R.4c138347017ea97e0d0275a758b93fe7?rik=RB26onItChdo5A&riu=http%3a%2f%2fclipart-library.com%2fimages%2fdT9raxpyc.jpg&ehk=w7gsvxKBmIVlLs51UjDnHMZhBE2l4S7J3lDHmLa%2fmFQ%3d&risl=&pid=ImgRaw&r=0" alt="Logos" id="logo"/>
+
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+            <li><a href="#myFooter">About</a></li>
+              <li><a href="#login">Staff Login</a></li>
+                <li><a href="#myFooter">Contact</a></li>
+                <li id="SearchBtn"><a href="#search">&#128269;</a></li>
+
+        </ul>
+
+
+
+
+      </div>
+
+      <input type="search" autocomplete="additional-name" id="Search" placeholder="Search...">
+
+    <div class="firstpage">
+      <!-- REGISTRATION FORM -->
+
+
+
+<!---
+    <form id="RegForm">
+    <h2 >Registration Form</h2>
+    <img src="close_white.svg" alt="closetab" id="closeBtn">
+
+    <div class="form-group">
+      <label id="first-name" for="fname">First Name</label>
+      <input type="text" name="fname" id="name1" placeholder="Enter your first name" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label id="last-name" for="lname">Last Name</label>
+      <input type="text" name="lname" id="name2" placeholder="Enter your last name" class="form-control" required />
+    </div>
+
+
+        <div class="form-group">
+          <label id="my-email" for="email">Email</label>
+          <input type="email" name="lemail" id="email" placeholder="Enter your email" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label id="my-tel" for="tel">Phone No</label>
+          <input type="number" name="tel" id="tel" placeholder="Enter your mobile number" class="form-control" required />
+        </div>
+
+    <div class="form-group">
+      <label id="my-age" for="age">Age</label>
+      <input type="number" name="age" id="age" placeholder="Enter your age" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+    <p>Please select your sex?</p>
+    <label>
+      <input type="radio" name="user-recommend" value="definitely"  class="input-radio" />Male</label>
+        <label>  <input type="radio" name="user-recommend" value="maybe" class="input-radio" />Female</label>
+        <label><input type="radio" name="user-recommend" value="not-sure"   class="input-radio" />Other</label>
+    </div>
+
+
+    <div class="form-group">
+      <p>House Address</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your house address here..."></textarea>
+    </div>
+
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here including allergies and medication you react to..."></textarea>
+    </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+
+
+
+
+    </form>
+-->
+
+
+
+
+
+     <!-- APPLICATION  FORM -->
+     <!--
+      <div id="AppForm">
+
+        <h2 >Registration Form</h2>
+        <img src="close_white.svg" alt="closetab" id="closeBtn">
+
+        <div class="form-group">
+          <label id="first-name" for="fname">First Name</label>
+          <input type="text" name="fname" id="name1" placeholder="Enter your first name" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label id="last-name" for="lname">Last Name</label>
+          <input type="text" name="lname" id="name2" placeholder="Enter your last name" class="form-control" required />
+        </div>
+
+
+            <div class="form-group">
+              <label id="my-email" for="email">Email</label>
+              <input type="email" name="lemail" id="email" placeholder="Enter your email" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+              <label id="my-tel" for="tel">Phone No</label>
+              <input type="number" name="tel" id="tel" placeholder="Enter your mobile number" class="form-control" required />
+            </div>
+
+        <div class="form-group">
+          <label id="my-age" for="age">Age</label>
+          <input type="number" name="age" id="age" placeholder="Enter your age" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+        <p>Please select your sex?</p>
+        <label>
+          <input type="radio" name="user-recommend" value="definitely"  class="input-radio" />Male</label>
+            <label>  <input type="radio" name="user-recommend" value="maybe" class="input-radio" />Female</label>
+            <label><input type="radio" name="user-recommend" value="not-sure"   class="input-radio" />Other</label>
+        </div>
+
+
+        <div class="form-group">
+          <p>Reason for your appointment</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your reason you want to see a doctor..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <p>Time for appointment </p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value> Select current role</option>
+            <option value="student0">0.00</option>
+              <option value="student1">1.00</option>
+                <option value="student2">2.00</option>
+                  <option value="student3">3.00</option>
+                    <option value="student4">4.00</option>
+                      <option value="student5">5.00</option>
+                        <option value="student6">6.00</option>
+                          <option value="student7">7.00</option>
+                            <option value="student8">8.00</option>
+                              <option value="student9">9.00</option>
+                                <option value="student10">10.00</option>
+                                  <option value="student11">11.00</option>
+
+                                    <option value="student13">13.00</option>
+                                      <option value="student14">14.00</option>
+                                        <option value="student15">15.00</option>
+                                          <option value="student16">16.00</option>
+                                            <option value="student17">17.00</option>
+                                              <option value="student18">18.00</option>
+                                                <option value="student19">19.00</option>
+                                                  <option value="student20">20.00</option>
+                                                    <option value="student21">21.00</option>
+                                                      <option value="student22">22.00</option>
+                                                        <option value="student23">23.00</option>
+
+
+
+                  </select>
+        </div>
+
+
+
+                <div class="form-group">
+                  <p>Specialist </p>
+                  <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value> Select current role</option>
+                    <option value="doctor1">Dr Femi Babalola (GP)</option>
+                    <option value="doctor2">Dr Musa Jatto (ENT)</option>
+                    <option value="doctor3">Dr Mary Olisa (gynaecologist)</option>
+                    <option value="doctor4">Nurse Rachel Adagunodo (Nurse Specialist)</option>
+                    <option value="doctor4">Nurse Caroline Gillis (Midwife)</option>
+                    <option value="doctor4">Dr Elizabeth Orji (Surgeon)</option>
+                    <option value="doctor4">Dr Henry Okoro (Surgeon)</option>
+                    <option value="doctor4">Dr Patricia Egwueme (Surgeon)</option>
+                    <option value="doctor4">Dr Beatrice Bello (GP)</option>
+                    <option value="doctor4">Dr Mike Emenike (GP)</option>
+                    </select>
+                </div>
+
+
+
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+            </div>
+
+      </div>
+
+-->
+
+
+      <div class="one">
+
+      <img src="https://i.postimg.cc/cHRMfmHn/bruno-rodrigues-279x-IHym-PYY-unsplash-removebg-preview.png"  id="doctor1" alt="doctor1">
+      <img src="https://i.postimg.cc/mD2Rgqy4/doctor-mako-p-Msyc-X4-AOKM-unsplash-removebg-preview.png" id="doctor2" alt="doctor2">
+
+
+      </div>
+
+      <div class="two">
+        <h1 class="animate__animated animate__zoomIn">Medical Center</h1>
+        <p>
+          Connect with complete care
+        </p>
+        <section>
+          We provide a network of more than 5,000 doctors and providers at primary care and specialty clinics across the states.
+        </section>
+
+        <button type="submit" value="submit" id="sub1">Appointment</button>
+        <div id="Choice">
+          <button type="submit" value="submit" id="sub2">New User? Register</button>
+          <button type="submit" value="submit" id="sub3">Book<br>Appointment</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="secondPage">
+
+      <div class="d1">
+        <h6>MENTAL HEALTH</h6>
+      <img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/local_hospital/v12/24px.svg" alt="Mental Health" id="pix1"/>
+      </div>
+      <div class="d1">
+          <h6>FAMILY PLANNING</h6>
+          <img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/family_restroom/v9/24px.svg" alt="Family Planning" id="pix1"/>
+
+      </div>
+      <div class="d1">
+          <h6>URINARY MEDICINE</h6>
+          <img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/healing/v12/24px.svg" alt="Urinary Medicine" id="pix1"/>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="thirdPage">
+      <div class="FirstSquare"  data-aos="zoom-in" >
+        <p>
+          CORONA VIRUS: Don't go out without a mask<br>
+          Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome
+          coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019.
+          The disease has since spread worldwide, leading to an ongoing pandemic.
+          Symptoms of COVID-19 are variable, but often include fever, cough, headache, fatigue, breathing difficulties,
+          and loss of smell and taste.<br><br>
+
+          Symptoms may begin one to fourteen days after exposure to the virus.
+          At least a third of people who are infected do not develop noticeable symptoms. Those people who develop symptoms
+          noticeable enough to be classed as patients, most (81%) develop mild to moderate symptoms (up to mild pneumonia),
+          while 14% develop severe symptoms (dyspnea, hypoxia, or more than 50% lung involvement on imaging),
+          and 5% suffer critical symptoms (respiratory failure, shock, or multiorgan dysfunction).
+
+        </p>
+        <input type="button" value="COVID Checker" id="covidApp"/>
+       </div>
+      <div class="SecondSquare" data-aos="fade-left" >
+        <p id="notice1">Thanks for using a mask</p>
+        <p id="notice2">Covid Checker</p>
+
+        <img src="https://i.postimg.cc/wvRXhK5Y/sammy-williams-38-Un6-Oi5be-E-unsplash-removebg-preview.png" id="covidDoc">
+
+        <form id="formCovid">
+          <div id="groupForm1" data-aos="zoom-out">
+            Do you use your mask often ?<br>
+            <input type="button" name="btn1" value="YES" id="btn1">
+            <input type="button" name="btn1" value="NO" id="btn2">
+          </div>
+
+          <div id="groupForm2" data-aos="zoom-out">
+            Are you having high temperature? i.e you feel hot to touch on your chest or back?<br>
+            <input type="button" name="btn2" value="YES" id="btn3">
+            <input type="button" name="btn2" value="NO" id="btn4">
+          </div>
+
+          <div id="groupForm3" data-aos="zoom-out">
+            Do you have a new or continuous cough?<br>
+            <input type="button" name="btn3" value="YES" id="btn5">
+            <input type="button" name="btn3" value="NO" id="btn6">
+          </div>
+
+          <div id="groupForm4" data-aos="zoom-out">
+            Have you loss or change to your sense of smell or taste ?<br>
+            <input type="button" name="btn4" value="YES" id="btn7">
+            <input type="button" name="btn4" value="NO" id="btn8">
+          </div>
+
+
+          <div id="groupForm5" data-aos="zoom-out">
+            <input type="button" name="btn9" value="Result" id="Rbtn9">
+          </div>
+<!---
+          <div id="groupForm6" data-aos="zoom-out">
+            <input type="button" name="btn10" value="Result" id="Rbtn10">
+          </div>
+-->
+
+
+
+
+
+
+        </form>
+          <img src="https://i.postimg.cc/cCnWSkZM/covid.png" id="covid">
+            <div class="ResultDisplay">
+
+            </div>
+
+
+      </div>
+
+
+    </div>
+  <hr></hr>
+
+    <footer id="myFooter">
+      <div class="foot1">
+        <h2>About</h2>
+        <p>
+        The need for a hospital dedicated entirely to the people .
+        So important, that it needs a champion to make sure that it’s
+        able to keep doing the phenomenal work it does.
+        That champion is the Medical Centre.<br>
+        <br>
+        The Medical Centre was established in 1990 to advance healthcare in
+        Ado Odo Ota Local Government and its' environs – the first stand-alone Medical Centre,
+         in the South-West.<br>
+        <br>
+        As an independent, registered non-profit organisation, we rely on the generous
+        donations of our donors to fund the Medical Center.
+
+        </p>
+      </div>
+
+
+      <div class="foot2">
+        <h2>Contact</h2>
+        <p>
+          Medical Center:<br>
+          +234 (0) 1686 7860<br>
+          UK Office:<br>
+          +44 (0) 123 6380 000<br>
+          Red Cross War Memorial Medical Center<br>
+          +234 (0) 21 600 5111
+        </p>
+      </div>
+      <div class="foot3">
+      <h2>Support</h2>
+      <p>If you're unable to resolve an NHSmail issue
+      with your local IT Team,you can contact the
+      national helpdesk 24 hours a day, 365 days a
+      year:</p>
+      <br>
+      0333 000 1234<br>
+      helpdesk@medicare.net
+       <div class="controller">
+         <h5><a href="#">Top</a></h5>
+        <a class="gotopbtn" href="#" >&#8593;</a>
+
+
+
+      </div>
+      </div>
+
+    </footer>
+
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+    <script type="text/javascript" src="medical.js"></script>
+
+  </body>
+</html>
